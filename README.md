@@ -16,6 +16,7 @@ data → **look at the data** → build (`🔧`) → train (`🔧`) → evaluate
 | `04-l9-rnn-names` | L9 — RNNs | names → language (PyTorch tutorial set) | an LSTM classifying surnames from the final hidden state |
 | `07-l10-vanishing-gradients-lstm` | L10 — vanishing gradients & LSTMs | *(no dataset)* | see the gradient **vanish** through a `tanh` RNN and **survive** the LSTM cell-state highway; gates store/hold/overwrite; `nn.LSTM`/`nn.GRU` + the 4× cost; gradient clipping |
 | `05-l11-sequence-shakespeare` | L11 — sequence lab | tiny-shakespeare | a char-level language model that generates text (temperature, perplexity) |
+| `08-l12-encoder-decoder` | L12 — encoder-decoder & representation learning | MNIST | an autoencoder; a bottleneck forcing a compressed representation; latents as embeddings (cosine nearest-neighbours); a frozen-encoder linear probe vs raw pixels |
 | `06-capstone-starter` | Capstone | your choice (vision / text / tabular) | your own model, honest held-out test, write-up |
 
 The training loop matures across the set (the same `train / evaluate / plot_curves`
