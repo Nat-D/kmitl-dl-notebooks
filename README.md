@@ -39,7 +39,7 @@ parses; several were also run on CPU with tiny/synthetic data). They still need 
 - **Part 0:** build the plain encoder–decoder, pass the final state to the decoder, train with teacher forcing, and generate until EOS. Start here, before attention.
 - **Part A:** given weights → weighted sum → query/key scores → softmax → changing focus. After the plain-model walkthrough; no additional training is needed.
 - **Part B:** train small GRU encoder–decoders with and without attention on synthetic digit reversal, then inspect free-running predictions and measured alignment.
-- **Part C:** scaling, masks, greedy/beam search, and further practice.
+- **Part C (required before HW7):** scaling, masks, greedy/beam search, and further practice. Start at its setup cell; no Part B training is required.
 
 CPU is sufficient; GPU is optional. No data downloads or API keys are required.
-All 23 code cells passed a full default local CPU run (PyTorch 2.12.1+cpu), and the notebook schema was validated. This is not a Colab/GPU verification. The introduction's heatmap is explicitly hand-made; the trained model's heatmap is measured. Saved outputs are cleared for students.
+All 24 code cells passed a full default local CPU run (PyTorch 2.12.1+cpu), and the notebook schema was validated. This is not a Colab/GPU verification. The introduction's heatmap is explicitly hand-made; the trained model's heatmap is measured. Saved outputs are cleared for students.
