@@ -18,6 +18,7 @@ data → **look at the data** → build (`🔧`) → train (`🔧`) → evaluate
 | `05-l11-sequence-shakespeare` | L11 — sequence lab | tiny-shakespeare | a char-level language model that generates text (temperature, perplexity) |
 | `08-l12-encoder-decoder` | L12 — encoder-decoder & representation learning | MNIST | an autoencoder; a bottleneck forcing a compressed representation; latents as embeddings (cosine nearest-neighbours); a frozen-encoder linear probe vs raw pixels |
 | `09-l13-seq2seq-attention` | L13 — sequence-to-sequence & attention | generated digit sequences; no downloads | understand a weighted blend first, then train GRU models with/without attention and inspect learned alignment |
+| `10-l14-decoder-only-transformer` | L14 — decoder-only Transformer & intro to LLMs | tiny-shakespeare | build a GPT-style decoder from scratch — causal mask, multi-head self-attention, positional embeddings, next-token training — and generate text with temperature / top-k / top-p; peek at a head's causal attention |
 | `06-capstone-starter` | Capstone | your choice (vision / text / tabular) | your own model, honest held-out test, write-up |
 
 The training loop matures across the set (the same `train / evaluate / plot_curves`
